@@ -116,7 +116,7 @@ extension PXCardToken {
             return false
         } else {
             let range = cardNumber.startIndex ..< cardNumber.index(cardNumber.startIndex, offsetBy: 6)
-            return validateSecurityCodeWithPaymentMethod(securityCode!, paymentMethod: paymentMethod, bin: cardNumber.substring(with: range))
+            return validateSecurityCodeWithPaymentMethod(securityCode!, paymentMethod: paymentMethod, bin: String(cardNumber[range])) // Replace str.substring(with: range)
         }
     }
 
@@ -164,7 +164,7 @@ extension PXCardToken {
 
     internal func getBin() -> String? {
         let range =  cardNumber!.startIndex ..< cardNumber!.index(cardNumber!.startIndex, offsetBy: 6)
-        let bin: String? = cardNumber!.count >= 6 ? cardNumber!.substring(with: range) : nil
+        let bin: String? = cardNumber!.count >= 6 ? String(cardNumber![range]) : nil // Replaces str.substring(with: range)
         return bin
     }
 
@@ -235,7 +235,7 @@ extension PXCardToken {
         if year < 100 && year >= 0 {
             let currentYear: String = String(describing: now.year)
             let range = currentYear.startIndex ..< currentYear.index(currentYear.endIndex, offsetBy: -2)
-            let prefix: String = currentYear.substring(with: range)
+            let prefix: String = String(currentYear[range]) // Replaces str.substring(with: range)
 
             let nsReturn: NSString = prefix.appending(String(year)) as NSString
             return nsReturn.integerValue

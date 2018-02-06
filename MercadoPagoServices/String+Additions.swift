@@ -143,8 +143,8 @@ extension NSDictionary {
                     parametersString = parametersString + key + "=" + value + "&"
                 }
             }
-            let index =
-            parametersString = parametersString.substring(to: parametersString.index(before: parametersString.endIndex))
+            let index =  parametersString.index(before: parametersString.endIndex)
+            parametersString = String(parametersString[..<index]) // Replaces str.substring(to: index)
             return parametersString.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         } else {
             return ""
