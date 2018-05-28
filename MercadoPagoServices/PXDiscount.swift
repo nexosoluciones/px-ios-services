@@ -14,18 +14,14 @@ open class PXDiscount: NSObject, Codable {
     open var amountOff: Double?
     open var couponAmount: Double?
     open var currencyId: String?
-    open var couponCode: String?
-    open var concept: String?
 
-    public init(id: String, name: String?, percentOff: Double?, amountOff: Double?, couponAmount: Double?, currencyId: String?, couponCode: String?, concept: String?) {
+    public init(id: String, name: String?, percentOff: Double?, amountOff: Double?, couponAmount: Double?, currencyId: String?) {
         self.id = id
         self.name = name
         self.percentOff = percentOff
         self.amountOff = amountOff
         self.couponAmount = couponAmount
         self.currencyId = currencyId
-        self.couponCode = couponCode
-        self.concept = concept
     }
 
     public enum PXDiscountKeys: String, CodingKey {
@@ -35,8 +31,6 @@ open class PXDiscount: NSObject, Codable {
         case amountOff = "amount_off"
         case couponAmount = "coupon_amount"
         case currencyId = "currency_id"
-        case couponCode = "coupon_code"
-        case concept
     }
 
     required public convenience init(from decoder: Decoder) throws {
@@ -54,10 +48,8 @@ open class PXDiscount: NSObject, Codable {
         }
         let name: String? = try container.decodeIfPresent(String.self, forKey: .name)
         let currencyId: String? = try container.decodeIfPresent(String.self, forKey: .currencyId)
-        let couponCode: String? = try container.decodeIfPresent(String.self, forKey: .couponCode)
-        let concept: String? = try container.decodeIfPresent(String.self, forKey: .concept)
 
-        self.init(id: id, name: name, percentOff: percentOff, amountOff: amountOff, couponAmount: couponAmount, currencyId: currencyId, couponCode: couponCode, concept: concept)
+        self.init(id: id, name: name, percentOff: percentOff, amountOff: amountOff, couponAmount: couponAmount, currencyId: currencyId)
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -68,8 +60,6 @@ open class PXDiscount: NSObject, Codable {
         try container.encodeIfPresent(self.id, forKey: .id)
         try container.encodeIfPresent(self.name, forKey: .name)
         try container.encodeIfPresent(self.currencyId, forKey: .currencyId)
-        try container.encodeIfPresent(self.couponCode, forKey: .couponCode)
-        try container.encodeIfPresent(self.concept, forKey: .concept)
     }
 
     open func toJSONString() throws -> String? {
