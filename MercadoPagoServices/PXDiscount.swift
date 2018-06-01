@@ -7,15 +7,17 @@
 //
 
 import Foundation
+@objc
 open class PXDiscount: NSObject, Codable {
     open var id: String!
     open var name: String?
-    open var percentOff: Double?
-    open var amountOff: Double?
-    open var couponAmount: Double?
+    open var percentOff: Double
+    open var amountOff: Double
+    open var couponAmount: Double
     open var currencyId: String?
 
-    public init(id: String, name: String?, percentOff: Double?, amountOff: Double?, couponAmount: Double?, currencyId: String?) {
+    @objc
+    public init(id: String, name: String?, percentOff: Double, amountOff: Double, couponAmount: Double, currencyId: String?) {
         self.id = id
         self.name = name
         self.percentOff = percentOff
@@ -35,9 +37,9 @@ open class PXDiscount: NSObject, Codable {
 
     required public convenience init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: PXDiscountKeys.self)
-        let percentOff: Double? = try container.decodeIfPresent(Double.self, forKey: .percentOff)
-        let amountOff: Double? = try container.decodeIfPresent(Double.self, forKey: .amountOff)
-        let couponAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .couponAmount)
+        let percentOff: Double = try container.decodeIfPresent(Double.self, forKey: .percentOff) ?? 0
+        let amountOff: Double = try container.decodeIfPresent(Double.self, forKey: .amountOff) ?? 0
+        let couponAmount: Double = (try container.decodeIfPresent(Double.self, forKey: .couponAmount)) ?? 0
         var id = ""
         do {
             let intId = try container.decodeIfPresent(Int.self, forKey: .id)

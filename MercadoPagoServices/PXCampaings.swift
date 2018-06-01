@@ -8,7 +8,9 @@
 
 import Foundation
 
+@objc
 open class PXCampaign: NSObject, Codable {
+
 
     open var id: Int64!
     open var code: String?
@@ -18,7 +20,7 @@ open class PXCampaign: NSObject, Codable {
     open var endDate: Date?
     open var minPaymentAmount: Double?
     open var maxPaymentAmount: Double?
-    open var maxCouponAmount: Double?
+    open var maxCouponAmount: Double
     open var totalAmountLimit: Double?
     open var maxCoupons: Int64?
     open var maxCouponsByCode: Int?
@@ -39,6 +41,13 @@ open class PXCampaign: NSObject, Codable {
     open var couponAmount: Double?
     open var collectors: [Int64]?
 
+    @objc
+    public init(id: Int64, code: String?, name: String?,maxCouponAmount: Double) {
+        self.id = id
+        self.code = code
+        self.name = name
+        self.maxCouponAmount = maxCouponAmount
+    }
     public init(id: Int64, code: String?, name: String?, discountType: String?, value: Double?, endDate: Date?, minPaymentAmount: Double?, maxPaymentAmount: Double?, maxCouponAmount: Double?, totalAmountLimit: Double?, maxCoupons: Int64?, maxCouponsByCode: Int?, maxRedeemPerUser: Int?, siteId: String?, marketplace: String?, codeType: String?, maxUserAmountPerCampaign: Double?, labels: [String]?, paymentMethodsIds: [String]?, paymentTypesIds: [String]?, cardIssuersIds: [String]?, shippingModes: [String]?, clientId: Int64?, tags: [String]?, multipleCodeLimit: Int?, codeCount: Int?, couponAmount: Double?, collectors: [Int64]?) {
 
             self.id = id
@@ -49,7 +58,7 @@ open class PXCampaign: NSObject, Codable {
             self.endDate = endDate
             self.minPaymentAmount = minPaymentAmount
             self.maxPaymentAmount = maxPaymentAmount
-            self.maxCouponAmount = maxCouponAmount
+        self.maxCouponAmount = maxCouponAmount!
             self.totalAmountLimit = totalAmountLimit
             self.maxCoupons = maxCoupons
             self.maxCouponsByCode = maxCouponsByCode
