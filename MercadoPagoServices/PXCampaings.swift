@@ -42,7 +42,7 @@ open class PXCampaign: NSObject, Codable {
     open var collectors: [Int64]?
 
     @objc
-    public init(id: Int64, code: String?, name: String?,maxCouponAmount: Double) {
+    public init(id: Int64, code: String?, name: String?, maxCouponAmount: Double) {
         self.id = id
         self.code = code
         self.name = name
@@ -58,7 +58,7 @@ open class PXCampaign: NSObject, Codable {
             self.endDate = endDate
             self.minPaymentAmount = minPaymentAmount
             self.maxPaymentAmount = maxPaymentAmount
-        self.maxCouponAmount = maxCouponAmount!
+            self.maxCouponAmount = maxCouponAmount!
             self.totalAmountLimit = totalAmountLimit
             self.maxCoupons = maxCoupons
             self.maxCouponsByCode = maxCouponsByCode
