@@ -477,7 +477,6 @@
 				4BE4B1E01F9FC1C200A08BCE /* Frameworks */,
 				4BE4B1E11F9FC1C200A08BCE /* Headers */,
 				4BE4B1E21F9FC1C200A08BCE /* Resources */,
-				B4484B9D98CAD2577D4ED837 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -497,7 +496,6 @@
 				4BE4B1EA1F9FC1C300A08BCE /* Frameworks */,
 				4BE4B1EB1F9FC1C300A08BCE /* Resources */,
 				AFA4935F690B653FC9C0EA36 /* [CP] Embed Pods Frameworks */,
-				4D8EDB709E7681482CBED4C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -585,21 +583,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D8EDB709E7681482CBED4C6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AFA4935F690B653FC9C0EA36 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -616,21 +599,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4484B9D98CAD2577D4ED837 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServices/Pods-MercadoPagoServices-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C35D71298BFD221B91514408 /* [CP] Check Pods Manifest.lock */ = {
