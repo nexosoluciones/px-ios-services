@@ -62,7 +62,7 @@ open class DiscountService: MercadoPagoService {
                     let apiException = try! PXApiException.fromJSON(data: data)
                     failure(PXError(domain: "mercadopago.sdk.DiscountService.getCampaigns", code: ErrorTypes.API_EXCEPTION_ERROR, userInfo: errorDic as? [String : Any], apiException: apiException))
                 }
-            } else {
+            } else if ((jsonResult as? NSArray) != nil) {
                 let campaigns: [PXCampaign] = try! PXCampaign.fromJSON(data: data)
                 success(campaigns)
             }
