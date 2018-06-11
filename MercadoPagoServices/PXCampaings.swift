@@ -118,7 +118,7 @@ open class PXCampaign: NSObject, Codable {
         let name: String? = try container.decodeIfPresent(String.self, forKey: .name)
         let discountType: String? = try container.decodeIfPresent(String.self, forKey: .discountType)
         let value: Double? = try container.decodeIfPresent(Double.self, forKey: .value)
-        let endDateString: String?  = try container.decodeIfPresent(String.self, forKey: .endDate)
+        let endDate: Date?  = try container.decodeDateFromStringIfPresent(String.self, forKey: .endDate)
         let minPaymentAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .minPaymentAmount)
         let maxPaymentAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .maxPaymentAmount)
         let maxCouponAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .maxCouponAmount)
@@ -141,8 +141,6 @@ open class PXCampaign: NSObject, Codable {
         let codeCount: Int? = try container.decodeIfPresent(Int.self, forKey: .codeCount)
         let couponAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .couponAmount)
         let collectors: [Int64]? = try container.decodeIfPresent([Int64].self, forKey: .collectors)
-
-        let endDate = String.getDate(endDateString)
 
        self.init(id: id, code: code, name: name, discountType: discountType, value: value, endDate: endDate, minPaymentAmount: minPaymentAmount, maxPaymentAmount: maxPaymentAmount, maxCouponAmount: maxCouponAmount, totalAmountLimit: totalAmountLimit, maxCoupons: maxCoupons, maxCouponsByCode: maxCouponsByCode, maxRedeemPerUser: maxRedeemPerUser, siteId: siteId, marketplace: marketplace, codeType: codeType, maxUserAmountPerCampaign: maxUserAmountPerCampaign, labels: labels, paymentMethodsIds: paymentMethodsIds, paymentTypesIds: paymentTypesIds, cardIssuersIds: cardIssuersIds, shippingModes: shippingModes, clientId: clientId, tags: tags, multipleCodeLimit: multipleCodeLimit, codeCount: codeCount, couponAmount: couponAmount, collectors: collectors)
     }
