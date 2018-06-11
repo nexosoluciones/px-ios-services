@@ -162,6 +162,8 @@
 		4BE4B27B1F9FC76F00A08BCE /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4B27A1F9FC76F00A08BCE /* String+Additions.swift */; };
 		97306F9346D4B05A868D7365 /* Pods_MercadoPagoServicesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D19932B74D6FC5EE2387D7E /* Pods_MercadoPagoServicesTests.framework */; };
 		A3F20AFCAF8AFBB51E8E9499 /* Pods_MercadoPagoServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15005DD77F994F3D79635FCA /* Pods_MercadoPagoServices.framework */; };
+		FC1F067720CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F067620CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift */; };
+		FC1F067820CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F067620CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift */; };
 		FC6DC6DB1FA8D06200601314 /* Int+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DC6DA1FA8D06200601314 /* Int+Additions.swift */; };
 /* End PBXBuildFile section */
 
@@ -267,6 +269,7 @@
 		4BE4B23E1F9FC25C00A08BCE /* PXBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXBin.swift; sourceTree = "<group>"; };
 		4BE4B27A1F9FC76F00A08BCE /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
 		B9E5CAA47C5AF4CFF53FC485 /* Pods-MercadoPagoServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoPagoServicesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1F067620CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer + Additions.swift"; sourceTree = "<group>"; };
 		FC6DC6DA1FA8D06200601314 /* Int+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -429,6 +432,7 @@
 		4BE4B1E61F9FC1C200A08BCE /* MercadoPagoServices */ = {
 			isa = PBXGroup;
 			children = (
+				FC1F067620CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift */,
 				4B02E1DF1FA8CA940086B309 /* MercadoPagoServices.swift */,
 				4B02E1CC1FA8C78E0086B309 /* Services */,
 				4B3C78CD1FA35F1200CB47B0 /* Models */,
@@ -679,6 +683,7 @@
 				4BE4B2461F9FC25C00A08BCE /* PXItem.swift in Sources */,
 				4BE4B25C1F9FC25C00A08BCE /* PXPhone.swift in Sources */,
 				4BE4B2601F9FC25C00A08BCE /* PXIdentificationType.swift in Sources */,
+				FC1F067720CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift in Sources */,
 				4B3C78CB1FA35EDF00CB47B0 /* PXvendorSpecificAttributes.swift in Sources */,
 				4BE4B2501F9FC25C00A08BCE /* PXToken.swift in Sources */,
 				4B02E1E01FA8CA940086B309 /* MercadoPagoServices.swift in Sources */,
@@ -714,6 +719,7 @@
 				4BD1E86D1FB49A12002B3F75 /* PXError.swift in Sources */,
 				4BCF1DEA1FAB82F500C2D804 /* PXCustomOptionSearchItem.swift in Sources */,
 				4BCF1DE51FAB82F500C2D804 /* PXCause.swift in Sources */,
+				FC1F067820CEE12D00AF83DF /* KeyedDecodingContainer + Additions.swift in Sources */,
 				4BCF1E061FAB82F500C2D804 /* PXPicture.swift in Sources */,
 				4BCF1DFB1FAB82F500C2D804 /* PXPayerCost.swift in Sources */,
 				4BD1E8651FB3805D002B3F75 /* PXServicesSettings.swift in Sources */,
