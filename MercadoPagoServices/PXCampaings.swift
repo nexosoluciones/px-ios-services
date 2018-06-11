@@ -118,7 +118,7 @@ open class PXCampaign: NSObject, Codable {
         let name: String? = try container.decodeIfPresent(String.self, forKey: .name)
         let discountType: String? = try container.decodeIfPresent(String.self, forKey: .discountType)
         let value: Double? = try container.decodeIfPresent(Double.self, forKey: .value)
-        let endDate: Date?  = try container.decodeDateFromStringIfPresent(String.self, forKey: .endDate)
+        let endDate: Date?  = try container.decodeDateFromStringIfPresent(forKey: .endDate)
         let minPaymentAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .minPaymentAmount)
         let maxPaymentAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .maxPaymentAmount)
         let maxCouponAmount: Double? = try container.decodeIfPresent(Double.self, forKey: .maxCouponAmount)

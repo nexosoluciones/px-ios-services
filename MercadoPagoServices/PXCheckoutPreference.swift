@@ -45,8 +45,8 @@ open class PXCheckoutPreference: NSObject, Codable {
         let items: [PXItem]? = try container.decodeIfPresent([PXItem].self, forKey: .items)
         let paymentPreference: PXPaymentPreference? = try container.decodeIfPresent(PXPaymentPreference.self, forKey: .paymentPreference)
         let payer: PXPayer? = try container.decodeIfPresent(PXPayer.self, forKey: .payer)
-        let expirationDateTo: Date? = try container.decodeDateFromStringIfPresent(String.self, forKey: .expirationDateTo)
-        let expirationDateFrom: Date? = try container.decodeDateFromStringIfPresent(String.self, forKey: .expirationDateFrom)
+        let expirationDateTo: Date? = try container.decodeDateFromStringIfPresent(forKey: .expirationDateTo)
+        let expirationDateFrom: Date? = try container.decodeDateFromStringIfPresent(forKey: .expirationDateFrom)
         let siteId: String? = try container.decodeIfPresent(String.self, forKey: .siteId)
         let site: PXSite? = try container.decodeIfPresent(PXSite.self, forKey: .site)
 
