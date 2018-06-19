@@ -12,12 +12,16 @@ open class PXCustomOptionSearchItem: NSObject, Codable {
     open var _description: String?
     open var paymentMethodId: String?
     open var paymentTypeId: String?
+    open var invested: Bool?
+    open var comment: String?
 
-    public init(id: String, description: String?, paymentMethodId: String?, paymentTypeId: String?) {
+    public init(id: String, description: String?, paymentMethodId: String?, paymentTypeId: String?, invested: Bool?, comment: String?) {
         self.id = id
         self._description = description
         self.paymentMethodId = paymentMethodId
         self.paymentTypeId = paymentTypeId
+        self.invested = invested
+        self.comment = comment
     }
 
     public enum PXCustomOptionSearchItemKeys: String, CodingKey {
@@ -25,6 +29,8 @@ open class PXCustomOptionSearchItem: NSObject, Codable {
         case description
         case paymentMethodId = "payment_method_id"
         case paymentTypeId = "payment_type_id"
+        case invested
+        case comment
     }
 
     required public convenience init(from decoder: Decoder) throws {
@@ -33,8 +39,10 @@ open class PXCustomOptionSearchItem: NSObject, Codable {
         let description: String? = try container.decodeIfPresent(String.self, forKey: .description)
         let paymentMethodId: String? = try container.decodeIfPresent(String.self, forKey: .paymentMethodId)
         let paymentTypeId: String? = try container.decodeIfPresent(String.self, forKey: .paymentTypeId)
+        let invested: Bool? = try container.decodeIfPresent(Bool.self, forKey: .invested)
+        let comment: String? = try container.decodeIfPresent(String.self, forKey: .comment)
 
-        self.init(id: id, description: description, paymentMethodId: paymentMethodId, paymentTypeId: paymentTypeId)
+        self.init(id: id, description: description, paymentMethodId: paymentMethodId, paymentTypeId: paymentTypeId, invested: invested, comment: comment)
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -43,6 +51,8 @@ open class PXCustomOptionSearchItem: NSObject, Codable {
         try container.encodeIfPresent(self._description, forKey: .description)
         try container.encodeIfPresent(self.paymentMethodId, forKey: .paymentMethodId)
         try container.encodeIfPresent(self.paymentTypeId, forKey: .paymentTypeId)
+        try container.encodeIfPresent(self.invested, forKey: .invested)
+        try container.encodeIfPresent(self.comment, forKey: .comment)
     }
 
     open func toJSONString() throws -> String? {
