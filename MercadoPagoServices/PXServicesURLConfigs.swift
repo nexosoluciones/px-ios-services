@@ -12,7 +12,7 @@ open class PXServicesURLConfigs: NSObject {
     open static var MP_PROD_ENV = "/v1"
     open static var MP_SELECTED_ENV = MP_PROD_ENV
 
-    open static var API_VERSION = "1.5"
+    open static var API_VERSION = "1.6"
     open static let MP_API_BASE_URL_PROD: String =  "https://api.mercadopago.com"
     open static let MP_API_BASE_URL: String =  MP_API_BASE_URL_PROD
 
@@ -29,7 +29,7 @@ open class PXServicesURLConfigs: NSObject {
     open static var MP_ISSUERS_URI = MP_ENVIROMENT + CARD_ISSSUERS
     open static let MP_IDENTIFICATION_URI = "/identification_types"
     open static let MP_PROMOS_URI = MP_OP_ENVIROMENT + PAYMENT_METHODS + "/deals"
-    open static let MP_SEARCH_PAYMENTS_URI = MP_ENVIROMENT + PAYMENT_METHODS + "/search/options"
+    open static let MP_SEARCH_PAYMENTS_URI = "\(MP_SELECTED_ENV)/px_mobile_api/payment_methods"
     open static let MP_INSTRUCTIONS_URI = MP_ENVIROMENT + PAYMENTS + "/${payment_id}/results"
     open static let MP_PREFERENCE_URI = MP_ENVIROMENT + "/preferences/"
     open static let MP_DISCOUNT_URI =  "/discount_campaigns/"
