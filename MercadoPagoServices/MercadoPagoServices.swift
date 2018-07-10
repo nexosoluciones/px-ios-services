@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import MercadoPagoPXTracking
+import MercadoPagoPXTrackingV4
 
 open class MercadoPagoServices: NSObject {
 

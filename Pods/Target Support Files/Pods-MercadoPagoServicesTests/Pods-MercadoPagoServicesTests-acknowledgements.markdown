@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## MercadoPagoPXTracking
+## MercadoPagoPXTrackingV4
 
 MIT License
 
