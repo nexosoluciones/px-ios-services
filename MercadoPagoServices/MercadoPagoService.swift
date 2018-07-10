@@ -20,10 +20,11 @@ open class MercadoPagoService: NSObject {
 
     public func request(uri: String, params: String?, body: String?, method: String, headers: [String:String]? = nil, cache: Bool = true, success: @escaping (_ data: Data) -> Void,
                         failure: ((_ error: NSError) -> Void)?) {
-        var url = baseURL + uri
+        let url = baseURL + uri
         var requesturl = url
-        if !String.isNullOrEmpty(params) {
-            requesturl += "?" + params!
+        
+        if let params = params, !String.isNullOrEmpty(params), let escapedParams = params.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) {
+            requesturl += "?" + escapedParams
         }
 
         let finalURL: NSURL = NSURL(string: requesturl)!
