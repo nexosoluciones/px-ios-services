@@ -211,9 +211,9 @@ open class MercadoPagoServices: NSObject {
         discountService.getDiscount(publicKey: merchantPublicKey, amount: amount, code: couponCode, payerEmail: payerEmail, additionalInfo: addInfo, success: callback, failure: failure)
     }
 
-    public func getCampaigns(callback: @escaping ([PXCampaign]) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
+    public func getCampaigns(payerEmail: String?, callback: @escaping ([PXCampaign]) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
         let discountService = DiscountService(baseURL: baseURL, URI: PXServicesURLConfigs.MP_CAMPAIGNS_URI)
-        discountService.getCampaigns(publicKey: merchantPublicKey, success: callback, failure: failure)
+        discountService.getCampaigns(publicKey: merchantPublicKey, payerEmail: payerEmail, success: callback, failure: failure)
     }
 
     open func getCustomer(url: String, uri: String, additionalInfo: [String:String]? = nil, callback: @escaping (PXCustomer) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
