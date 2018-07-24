@@ -7,38 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C93349941DC1EA47A67F0A12F14234D /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE993C3BD25F0BBFEDCB4CA530E82F /* Array+Additions.swift */; };
-		1FC32454C0F304419EF5E131593DE376 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C98E23BE7E91852B74D1CF00590D4C34 /* Info.plist */; };
-		28816B6ADBCB891E12FFCEDAA03A80C7 /* MPTActionEventInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92E751A55880FF79C28DCB6EC404821 /* MPTActionEventInfo.swift */; };
-		28CB3FB11BA6FEC2F552E5DDB9DE05FA /* TrackingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036661D3D019B6C58CCEEAA7CCE8BE78 /* TrackingStrategy.swift */; };
-		2A4DB3BE56F113CB894EA46811859891 /* MPXReach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2052974D582FB954BDB669E0B10B34A0 /* MPXReach.swift */; };
-		33762A09A2ACD51B06F4F1779A98674E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4910D2D6974CB441688FA9A19EA83BAA /* MercadoPagoPXTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F04BAB7061885AAF94AA1181D0A761 /* MercadoPagoPXTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5351A5B6FA1ECFE9B35A534CA5C760BC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD84996370BBF369E63B2E6DE0C6FD /* Utils.swift */; };
-		5911DD3C154B3079B4BEB3BC9A45DCF7 /* mpx_tracking_settings.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8EC95C67B0C8C48DD9A41E9D34610595 /* mpx_tracking_settings.plist */; };
-		5B977480EF4C8541E4B629BA380EE7C4 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757F73EA2811EE457279E9CCF3CC0142 /* String+Additions.swift */; };
-		5E3C01018D45A07584B76E5EB89C63EE /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01D95D8C76B782EAABB64F61ACAE3E /* JSONHandler.swift */; };
+		00740FA3D90CD9789EAF9659B5DC08DD /* MPTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6EB189628A490F7BFD870F2D84B7CD /* MPTApplication.swift */; };
+		10ACA20FEA7E32F84B19CEA6908C5793 /* MPTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D861D48BA961597999F5334255B246 /* MPTrackInfo.swift */; };
+		220D9F6861F8C94A3059DA0525BEFD99 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A475F07C22E845398548571E259E893 /* String+Additions.swift */; };
+		2FFD8560F457B519B7B25E9874740BEF /* MPXReach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830E722D581F855F1B9CB4970A492F23 /* MPXReach.swift */; };
+		31200A86CCBD8A42D07252E2CB2497DF /* TrackStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15264D7B3B0206D4BEC9AAD59A572B /* TrackStorageManager.swift */; };
+		438D474FA23F43C2FEA1E06C9B122DD6 /* mpx_tracking_settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E0D91050746B507E93033C1102072B /* mpx_tracking_settings.plist */; };
+		50E83F6D1103BA92523918A7419BF8CB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD8675EC3F6D34F80F9FC7217C8594 /* Utils.swift */; };
+		5CF7B137B33FF8B16C8FC9D172224B56 /* TrackingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D88DBA7D85F29A074A3759DD9B2B9A /* TrackingUtil.swift */; };
+		62095B95B22889025158084084DC0F24 /* FlowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75BF42659DD4A34395E337470F5172D /* FlowService.swift */; };
 		63F6C34C0702699B5AC007609113DCC5 /* Pods-MercadoPagoServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3B105D56955FC35EA5E083B47222A0 /* Pods-MercadoPagoServices-dummy.m */; };
-		66EF12F4097B744979951FC2E01C8384 /* FlowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC784CFEF5361E13463E07863EC3EB49 /* FlowService.swift */; };
-		79B89AE7A8C03E497D5E15E6D6D48466 /* TrackStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F65B7CCA0120AD954FBDA8B761B5B0 /* TrackStorageManager.swift */; };
-		7C75FC832E70CDD251BC9F35408FA2A2 /* TrackingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1025C95F7A9CD998D950A9ADA91CEE50 /* TrackingServices.swift */; };
-		7CF903D12E90DED9EB96D05D5B4F44B1 /* MPTScreenTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ACAF42C0E310F83D5238032E1AD7A9 /* MPTScreenTrackInfo.swift */; };
-		7DE652B2CD984AE8C15FFEE800AF8E9B /* MPXTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1085743C35FE46903EFEA69C8696A /* MPXTracker.swift */; };
-		7FD5FE4C1DC02DBE5B4B1D191A9CBC9B /* MercadoPagoPXTrackingV4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE87643DA15634189B6DFD9BB7CF32C /* MercadoPagoPXTrackingV4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8FAE83878859E6775BCE590288F2D3 /* PXTrackingURLConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F89F15CC568243A7FD4E90407EC28 /* PXTrackingURLConfigs.swift */; };
+		89C252E8C84881BC1C0638715067409A /* TrackingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA480EB7D31A7927D40DC1B0F1E33FC7 /* TrackingStrategy.swift */; };
 		94406592B20A7B08C80D9CB39E88D2A6 /* Pods-MercadoPagoServicesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD1AB6651FA545B7DFFC849198F99E4 /* Pods-MercadoPagoServicesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D0A2C15D4D9E901BD637EE6436A36DE /* MPTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A68F509EB34FEF2A76D471D9D17EA4 /* MPTApplication.swift */; };
-		A182680329B58A829BF7B15B83844896 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3F4FE7E6ECB77807343256B058451 /* Date+Additions.swift */; };
-		A814BFF23276F85713640A9F7ED46543 /* MPTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04EB963560E667CDC3C913ADC66D6D5 /* MPTDevice.swift */; };
-		A95274A1F91DDB1D85DCC1D3CF293718 /* MPTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29206EE6766363EF33B44F49158B8BF3 /* MPTrackInfo.swift */; };
+		94EAB1575D0D2ACB0613F9187F275516 /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20BE799333C4C82DFF37FBFAC58906 /* PaymentTracker.swift */; };
+		959D80062D31297F7361179FED6BCB7C /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99B053B9FC14B8B0C7213E8B22C695 /* Array+Additions.swift */; };
+		9A69BE2DC4431319F43FEF4019872B2F /* MPXTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C03BD9F09669826F3B9A2E015C8F33 /* MPXTracker.swift */; };
+		A005BF9F6BEA6DA8B0A322AE2FBDB780 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F7EAE05C0AB805483CC82E5C62A83 /* Date+Additions.swift */; };
+		AA4A334CD72A5708D25C12D3A5C178A7 /* PXTrackingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8816E5FB7241ADC8090BF4E0BA8D94 /* PXTrackingSettings.swift */; };
 		ABC1D2034B6CDCA7FB50D5E70C11F0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B280B88AD25565AA0EDF2D866BFC8871 /* MercadoPagoPXTrackingV4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5213637EDCBFA917838561D2B5F807A /* MercadoPagoPXTrackingV4-dummy.m */; };
-		B3327D361E2C46803E487DFADCD864E3 /* PXTrackingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554C05C1D6F98F26869115B21477272 /* PXTrackingSettings.swift */; };
 		B40B016CFCA3B14A126D7C1197F3745F /* Pods-MercadoPagoServicesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDC410E3545FAB464CFF3FFF17E90A /* Pods-MercadoPagoServicesTests-dummy.m */; };
+		C16F72AF9BFBE71973672FC2D1A8300C /* MPTDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32FE89B6FD67D45A1E30FB317BE3222 /* MPTDevice.swift */; };
+		C1FDD4E43394256683399F47051203D1 /* MercadoPagoPXTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C398A3064E6D3858D7B0BE7C89E772C /* MercadoPagoPXTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C21628D53B3BB1FB241A2364E0BEE4F1 /* TrackingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA7A399A9F9016EE525F724DE7739D /* TrackingServices.swift */; };
+		C509C5E7F096E4DA5882D59E4F448FDC /* MPTActionEventInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F8CDDB64D1D418F20DE1FCDCB3A9 /* MPTActionEventInfo.swift */; };
+		C50AB2042024B48ADC6F401C81C358F6 /* MercadoPagoPXTrackingV4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE215D2E523EBA8A9F87B5C46D212B40 /* MercadoPagoPXTrackingV4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA15020AD304234C1DC206365F7F5EFE /* Pods-MercadoPagoServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F979F61B30351EB24FF7B8F0B520105F /* Pods-MercadoPagoServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB5F4E2709514E49DE387542672441A3 /* PXTrackingURLConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321625E78BD405A53FEB5FA63FF7F6FC /* PXTrackingURLConfigs.swift */; };
-		CCD8D52707C8C7F2D822658473EA9CE8 /* MPTTrackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB5DFBFD66CF0407F428B7EC3A694B /* MPTTrackType.swift */; };
-		E2788A60B1D63F41BA3F7F9A42769C2E /* PaymentTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC76C2B2EBF942BEA07A6DF151D4B0 /* PaymentTracker.swift */; };
-		E5D8E61A88D28385B6B0FF17276F7762 /* TrackingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303FAF06047D91197C0A99E75EC07EC1 /* TrackingUtil.swift */; };
+		CB673DD479F2BC2C7C8BD9786FD4CEA2 /* MPTScreenTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993399236DFBB2401E5BFE68427A4934 /* MPTScreenTrackInfo.swift */; };
+		EC0E93925B1E6007A0B02F703E30E194 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1856B4E2AA8E7941A6E33596F17F0E /* JSONHandler.swift */; };
+		F30B96B8C96FAED86CC518C694E9DAEC /* MPTTrackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CC6C3DA41AEE4B4846C23AE3CA410 /* MPTTrackType.swift */; };
+		F55924FC01280BA65F52B426BAE45CAE /* MercadoPagoPXTrackingV4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9152A6DFE554FAC7890627654DD2E0B2 /* MercadoPagoPXTrackingV4-dummy.m */; };
+		F7C5F4A66A22968C62C91A8593AAE54F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FACA08C9A5DF62F7F28201DB751E2BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,89 +46,88 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C869DE4042A4BF9938E006D93ED17F51;
+			remoteGlobalIDString = EB587F98041C57AE9782BE133E934161;
 			remoteInfo = MercadoPagoPXTrackingV4;
 		};
 		D3577F8671DD4D06E69A4D65AEC222B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C869DE4042A4BF9938E006D93ED17F51;
+			remoteGlobalIDString = EB587F98041C57AE9782BE133E934161;
 			remoteInfo = MercadoPagoPXTrackingV4;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036661D3D019B6C58CCEEAA7CCE8BE78 /* TrackingStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingStrategy.swift; path = MercadoPagoPXTracking/TrackingStrategy.swift; sourceTree = "<group>"; };
-		04E1085743C35FE46903EFEA69C8696A /* MPXTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPXTracker.swift; path = MercadoPagoPXTracking/MPXTracker.swift; sourceTree = "<group>"; };
-		1025C95F7A9CD998D950A9ADA91CEE50 /* TrackingServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingServices.swift; path = MercadoPagoPXTracking/TrackingServices.swift; sourceTree = "<group>"; };
-		16F04BAB7061885AAF94AA1181D0A761 /* MercadoPagoPXTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MercadoPagoPXTracking.h; path = MercadoPagoPXTracking/MercadoPagoPXTracking.h; sourceTree = "<group>"; };
+		07D861D48BA961597999F5334255B246 /* MPTrackInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTrackInfo.swift; path = MercadoPagoPXTracking/MPTrackInfo.swift; sourceTree = "<group>"; };
+		0A7F7EAE05C0AB805483CC82E5C62A83 /* Date+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Additions.swift"; path = "MercadoPagoPXTracking/Date+Additions.swift"; sourceTree = "<group>"; };
+		13D88DBA7D85F29A074A3759DD9B2B9A /* TrackingUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingUtil.swift; path = MercadoPagoPXTracking/TrackingUtil.swift; sourceTree = "<group>"; };
+		14216F8CD966281ED3565AA471F6A402 /* MercadoPagoPXTrackingV4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MercadoPagoPXTrackingV4.modulemap; sourceTree = "<group>"; };
 		17596A979877CBC1C9BA273AC6ADDDA8 /* Pods-MercadoPagoServicesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercadoPagoServicesTests-frameworks.sh"; sourceTree = "<group>"; };
+		1A475F07C22E845398548571E259E893 /* String+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Additions.swift"; path = "MercadoPagoPXTracking/String+Additions.swift"; sourceTree = "<group>"; };
 		1B3B105D56955FC35EA5E083B47222A0 /* Pods-MercadoPagoServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercadoPagoServices-dummy.m"; sourceTree = "<group>"; };
-		2052974D582FB954BDB669E0B10B34A0 /* MPXReach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPXReach.swift; path = MercadoPagoPXTracking/MPXReach.swift; sourceTree = "<group>"; };
-		23AB5DFBFD66CF0407F428B7EC3A694B /* MPTTrackType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTTrackType.swift; path = MercadoPagoPXTracking/MPTTrackType.swift; sourceTree = "<group>"; };
-		29206EE6766363EF33B44F49158B8BF3 /* MPTrackInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTrackInfo.swift; path = MercadoPagoPXTracking/MPTrackInfo.swift; sourceTree = "<group>"; };
 		2D0A87A6D339AEBE99963AF76CAB7BC4 /* Pods-MercadoPagoServices-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercadoPagoServices-acknowledgements.markdown"; sourceTree = "<group>"; };
-		303FAF06047D91197C0A99E75EC07EC1 /* TrackingUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingUtil.swift; path = MercadoPagoPXTracking/TrackingUtil.swift; sourceTree = "<group>"; };
-		321625E78BD405A53FEB5FA63FF7F6FC /* PXTrackingURLConfigs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PXTrackingURLConfigs.swift; path = MercadoPagoPXTracking/PXTrackingURLConfigs.swift; sourceTree = "<group>"; };
 		342E38C36DFA964D807E134E579EDB58 /* Pods-MercadoPagoServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercadoPagoServices.debug.xcconfig"; sourceTree = "<group>"; };
-		36A4F9ABE4C1F54E8D1383A1D30CFFBD /* MercadoPagoPXTrackingV4.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MercadoPagoPXTrackingV4.xcconfig; sourceTree = "<group>"; };
-		3B4DB4DA66CF73E56F64F5D22E391FA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CAF5A29860AD7436EE173CC7BC44A8E /* Pods-MercadoPagoServicesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MercadoPagoServicesTests.modulemap"; sourceTree = "<group>"; };
+		4C5D2E7E0998CD9556D30E2A19F8ED7A /* MercadoPagoPXTrackingV4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercadoPagoPXTrackingV4-prefix.pch"; sourceTree = "<group>"; };
 		4DD1AB6651FA545B7DFFC849198F99E4 /* Pods-MercadoPagoServicesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercadoPagoServicesTests-umbrella.h"; sourceTree = "<group>"; };
-		58BE993C3BD25F0BBFEDCB4CA530E82F /* Array+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Additions.swift"; path = "MercadoPagoPXTracking/Array+Additions.swift"; sourceTree = "<group>"; };
-		62ACAF42C0E310F83D5238032E1AD7A9 /* MPTScreenTrackInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTScreenTrackInfo.swift; path = MercadoPagoPXTracking/MPTScreenTrackInfo.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A2354DD92A09AFDEE2AC3F9DB8E4ABC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		757F73EA2811EE457279E9CCF3CC0142 /* String+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Additions.swift"; path = "MercadoPagoPXTracking/String+Additions.swift"; sourceTree = "<group>"; };
-		79A68F509EB34FEF2A76D471D9D17EA4 /* MPTApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTApplication.swift; path = MercadoPagoPXTracking/MPTApplication.swift; sourceTree = "<group>"; };
-		85FC76A1421F8663C46B42D0690FFC28 /* MercadoPagoPXTrackingV4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercadoPagoPXTrackingV4-prefix.pch"; sourceTree = "<group>"; };
+		6A8F89F15CC568243A7FD4E90407EC28 /* PXTrackingURLConfigs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PXTrackingURLConfigs.swift; path = MercadoPagoPXTracking/PXTrackingURLConfigs.swift; sourceTree = "<group>"; };
+		6B1856B4E2AA8E7941A6E33596F17F0E /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = MercadoPagoPXTracking/JSONHandler.swift; sourceTree = "<group>"; };
+		7B6133ECE98E5CE1C9A65B15247B309C /* MercadoPagoPXTrackingV4.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MercadoPagoPXTrackingV4.xcconfig; sourceTree = "<group>"; };
+		7F15264D7B3B0206D4BEC9AAD59A572B /* TrackStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackStorageManager.swift; path = MercadoPagoPXTracking/TrackStorageManager.swift; sourceTree = "<group>"; };
+		830E722D581F855F1B9CB4970A492F23 /* MPXReach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPXReach.swift; path = MercadoPagoPXTracking/MPXReach.swift; sourceTree = "<group>"; };
 		876D665D5D011DEA7D15E9FA0F47379C /* Pods-MercadoPagoServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercadoPagoServices.release.xcconfig"; sourceTree = "<group>"; };
 		88F4FF200B3A31F36F853E0D5F406BC9 /* Pods-MercadoPagoServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MercadoPagoServices.modulemap"; sourceTree = "<group>"; };
-		8EC95C67B0C8C48DD9A41E9D34610595 /* mpx_tracking_settings.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = mpx_tracking_settings.plist; path = MercadoPagoPXTracking/mpx_tracking_settings.plist; sourceTree = "<group>"; };
+		8CEA7A399A9F9016EE525F724DE7739D /* TrackingServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingServices.swift; path = MercadoPagoPXTracking/TrackingServices.swift; sourceTree = "<group>"; };
+		9152A6DFE554FAC7890627654DD2E0B2 /* MercadoPagoPXTrackingV4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MercadoPagoPXTrackingV4-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F65B7CCA0120AD954FBDA8B761B5B0 /* TrackStorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackStorageManager.swift; path = MercadoPagoPXTracking/TrackStorageManager.swift; sourceTree = "<group>"; };
-		9FFD84996370BBF369E63B2E6DE0C6FD /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = MercadoPagoPXTracking/Utils.swift; sourceTree = "<group>"; };
+		993399236DFBB2401E5BFE68427A4934 /* MPTScreenTrackInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTScreenTrackInfo.swift; path = MercadoPagoPXTracking/MPTScreenTrackInfo.swift; sourceTree = "<group>"; };
+		9B6EB189628A490F7BFD870F2D84B7CD /* MPTApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTApplication.swift; path = MercadoPagoPXTracking/MPTApplication.swift; sourceTree = "<group>"; };
+		9C398A3064E6D3858D7B0BE7C89E772C /* MercadoPagoPXTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MercadoPagoPXTracking.h; path = MercadoPagoPXTracking/MercadoPagoPXTracking.h; sourceTree = "<group>"; };
+		A32FE89B6FD67D45A1E30FB317BE3222 /* MPTDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTDevice.swift; path = MercadoPagoPXTracking/MPTDevice.swift; sourceTree = "<group>"; };
 		A5783E68C9A76FC4899E6D7393D47F47 /* Pods_MercadoPagoServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MercadoPagoServices.framework; path = "Pods-MercadoPagoServices.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6DC76C2B2EBF942BEA07A6DF151D4B0 /* PaymentTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentTracker.swift; path = MercadoPagoPXTracking/PaymentTracker.swift; sourceTree = "<group>"; };
 		ABC9F92A996CAFDECA16C758C2D5DDE6 /* Pods-MercadoPagoServices-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercadoPagoServices-resources.sh"; sourceTree = "<group>"; };
-		AD01D95D8C76B782EAABB64F61ACAE3E /* JSONHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONHandler.swift; path = MercadoPagoPXTracking/JSONHandler.swift; sourceTree = "<group>"; };
 		AEBEBE4B200DFAA0821BDBBFDDAC40AC /* Pods_MercadoPagoServicesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MercadoPagoServicesTests.framework; path = "Pods-MercadoPagoServicesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1233B651DCED4A92D9DD30FF0D89C5A /* Pods-MercadoPagoServicesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MercadoPagoServicesTests-resources.sh"; sourceTree = "<group>"; };
 		B33B86F8F6D0E875A7DC095B02BAA452 /* Pods-MercadoPagoServicesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MercadoPagoServicesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6462A05E9B97562C5372AB6CE55AAFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA480EB7D31A7927D40DC1B0F1E33FC7 /* TrackingStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingStrategy.swift; path = MercadoPagoPXTracking/TrackingStrategy.swift; sourceTree = "<group>"; };
 		BBBDC410E3545FAB464CFF3FFF17E90A /* Pods-MercadoPagoServicesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MercadoPagoServicesTests-dummy.m"; sourceTree = "<group>"; };
 		BEEB89E3FDAC401B3A451FC1C293AC24 /* Pods-MercadoPagoServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercadoPagoServicesTests.release.xcconfig"; sourceTree = "<group>"; };
-		C92E751A55880FF79C28DCB6EC404821 /* MPTActionEventInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTActionEventInfo.swift; path = MercadoPagoPXTracking/MPTActionEventInfo.swift; sourceTree = "<group>"; };
-		C98E23BE7E91852B74D1CF00590D4C34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = MercadoPagoPXTracking/Info.plist; sourceTree = "<group>"; };
-		CFE87643DA15634189B6DFD9BB7CF32C /* MercadoPagoPXTrackingV4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercadoPagoPXTrackingV4-umbrella.h"; sourceTree = "<group>"; };
+		BF20BE799333C4C82DFF37FBFAC58906 /* PaymentTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentTracker.swift; path = MercadoPagoPXTracking/PaymentTracker.swift; sourceTree = "<group>"; };
+		C2C03BD9F09669826F3B9A2E015C8F33 /* MPXTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPXTracker.swift; path = MercadoPagoPXTracking/MPXTracker.swift; sourceTree = "<group>"; };
+		CEE03F8EEB183EF0F3128F30482573BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01CC6C3DA41AEE4B4846C23AE3CA410 /* MPTTrackType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTTrackType.swift; path = MercadoPagoPXTracking/MPTTrackType.swift; sourceTree = "<group>"; };
 		D2E2E10C0C2A42C1E91043EB3A115A6C /* MercadoPagoPXTrackingV4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MercadoPagoPXTrackingV4.framework; path = MercadoPagoPXTrackingV4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5213637EDCBFA917838561D2B5F807A /* MercadoPagoPXTrackingV4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MercadoPagoPXTrackingV4-dummy.m"; sourceTree = "<group>"; };
-		DBD3F4FE7E6ECB77807343256B058451 /* Date+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Additions.swift"; path = "MercadoPagoPXTracking/Date+Additions.swift"; sourceTree = "<group>"; };
-		DC784CFEF5361E13463E07863EC3EB49 /* FlowService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowService.swift; path = MercadoPagoPXTracking/FlowService.swift; sourceTree = "<group>"; };
-		E04EB963560E667CDC3C913ADC66D6D5 /* MPTDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTDevice.swift; path = MercadoPagoPXTracking/MPTDevice.swift; sourceTree = "<group>"; };
+		D6E0D91050746B507E93033C1102072B /* mpx_tracking_settings.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = mpx_tracking_settings.plist; path = MercadoPagoPXTracking/Config/mpx_tracking_settings.plist; sourceTree = "<group>"; };
+		DA8816E5FB7241ADC8090BF4E0BA8D94 /* PXTrackingSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PXTrackingSettings.swift; path = MercadoPagoPXTracking/PXTrackingSettings.swift; sourceTree = "<group>"; };
+		DE215D2E523EBA8A9F87B5C46D212B40 /* MercadoPagoPXTrackingV4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MercadoPagoPXTrackingV4-umbrella.h"; sourceTree = "<group>"; };
 		E21F91169887A68ACE502DC4F68823FE /* Pods-MercadoPagoServices-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercadoPagoServices-acknowledgements.plist"; sourceTree = "<group>"; };
-		E554C05C1D6F98F26869115B21477272 /* PXTrackingSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PXTrackingSettings.swift; path = MercadoPagoPXTracking/PXTrackingSettings.swift; sourceTree = "<group>"; };
 		E9EB2E7F32E59EBB8B8260CBE2F5E9C6 /* Pods-MercadoPagoServicesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MercadoPagoServicesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5FB545519DFE176018AA9FA5FAEDD8D /* MercadoPagoPXTrackingV4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MercadoPagoPXTrackingV4.modulemap; sourceTree = "<group>"; };
+		EA99B053B9FC14B8B0C7213E8B22C695 /* Array+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Additions.swift"; path = "MercadoPagoPXTracking/Array+Additions.swift"; sourceTree = "<group>"; };
+		F699F8CDDB64D1D418F20DE1FCDCB3A9 /* MPTActionEventInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MPTActionEventInfo.swift; path = MercadoPagoPXTracking/MPTActionEventInfo.swift; sourceTree = "<group>"; };
+		F6DD8675EC3F6D34F80F9FC7217C8594 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = MercadoPagoPXTracking/Utils.swift; sourceTree = "<group>"; };
+		F75BF42659DD4A34395E337470F5172D /* FlowService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowService.swift; path = MercadoPagoPXTracking/FlowService.swift; sourceTree = "<group>"; };
 		F979F61B30351EB24FF7B8F0B520105F /* Pods-MercadoPagoServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MercadoPagoServices-umbrella.h"; sourceTree = "<group>"; };
 		FD21641D116526093C9B07E34AA91ED3 /* Pods-MercadoPagoServicesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MercadoPagoServicesTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		187BE2D1F1B038E9857FD3F2A5C10005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C5F4A66A22968C62C91A8593AAE54F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1ECFB6E999B6936D14AE88FBE39960F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ABC1D2034B6CDCA7FB50D5E70C11F0AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D85EC2419DE6D599E3809B445417B74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33762A09A2ACD51B06F4F1779A98674E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,39 +142,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D975644708C9FCAA42DF1308242B199 /* MercadoPagoPXTrackingV4 */ = {
-			isa = PBXGroup;
-			children = (
-				58BE993C3BD25F0BBFEDCB4CA530E82F /* Array+Additions.swift */,
-				DBD3F4FE7E6ECB77807343256B058451 /* Date+Additions.swift */,
-				DC784CFEF5361E13463E07863EC3EB49 /* FlowService.swift */,
-				C98E23BE7E91852B74D1CF00590D4C34 /* Info.plist */,
-				AD01D95D8C76B782EAABB64F61ACAE3E /* JSONHandler.swift */,
-				16F04BAB7061885AAF94AA1181D0A761 /* MercadoPagoPXTracking.h */,
-				C92E751A55880FF79C28DCB6EC404821 /* MPTActionEventInfo.swift */,
-				79A68F509EB34FEF2A76D471D9D17EA4 /* MPTApplication.swift */,
-				E04EB963560E667CDC3C913ADC66D6D5 /* MPTDevice.swift */,
-				29206EE6766363EF33B44F49158B8BF3 /* MPTrackInfo.swift */,
-				62ACAF42C0E310F83D5238032E1AD7A9 /* MPTScreenTrackInfo.swift */,
-				23AB5DFBFD66CF0407F428B7EC3A694B /* MPTTrackType.swift */,
-				8EC95C67B0C8C48DD9A41E9D34610595 /* mpx_tracking_settings.plist */,
-				2052974D582FB954BDB669E0B10B34A0 /* MPXReach.swift */,
-				04E1085743C35FE46903EFEA69C8696A /* MPXTracker.swift */,
-				A6DC76C2B2EBF942BEA07A6DF151D4B0 /* PaymentTracker.swift */,
-				E554C05C1D6F98F26869115B21477272 /* PXTrackingSettings.swift */,
-				321625E78BD405A53FEB5FA63FF7F6FC /* PXTrackingURLConfigs.swift */,
-				757F73EA2811EE457279E9CCF3CC0142 /* String+Additions.swift */,
-				1025C95F7A9CD998D950A9ADA91CEE50 /* TrackingServices.swift */,
-				036661D3D019B6C58CCEEAA7CCE8BE78 /* TrackingStrategy.swift */,
-				303FAF06047D91197C0A99E75EC07EC1 /* TrackingUtil.swift */,
-				93F65B7CCA0120AD954FBDA8B761B5B0 /* TrackStorageManager.swift */,
-				9FFD84996370BBF369E63B2E6DE0C6FD /* Utils.swift */,
-				FACEDBD9F44EBA930A979C6317B7B40B /* Support Files */,
-			);
-			name = MercadoPagoPXTrackingV4;
-			path = MercadoPagoPXTrackingV4;
-			sourceTree = "<group>";
-		};
 		2A3085E6ADADB5B5A8B8697067D977CC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,14 +149,6 @@
 				3E5905D864AA5BDE55989918DEC32989 /* Pods-MercadoPagoServicesTests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3BA01C04F7EA7B42ED55617957E65D73 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0D975644708C9FCAA42DF1308242B199 /* MercadoPagoPXTrackingV4 */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		3E5905D864AA5BDE55989918DEC32989 /* Pods-MercadoPagoServicesTests */ = {
@@ -210,6 +167,22 @@
 			);
 			name = "Pods-MercadoPagoServicesTests";
 			path = "Target Support Files/Pods-MercadoPagoServicesTests";
+			sourceTree = "<group>";
+		};
+		5AE6A623E5712DEBEAF3AEF21E37A25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8781414C6260001D6F71B250B754B7F4 /* MercadoPagoPXTrackingV4 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC392DEB3F54B071030C9DB3AD500C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6E0D91050746B507E93033C1102072B /* mpx_tracking_settings.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		6C130803FB17DA96589208F45F7BFCA0 /* Pods-MercadoPagoServices */ = {
@@ -234,10 +207,42 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3BA01C04F7EA7B42ED55617957E65D73 /* Pods */,
+				5AE6A623E5712DEBEAF3AEF21E37A25D /* Pods */,
 				FB98AEF4C117A89779FA11B95CCB3407 /* Products */,
 				2A3085E6ADADB5B5A8B8697067D977CC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8781414C6260001D6F71B250B754B7F4 /* MercadoPagoPXTrackingV4 */ = {
+			isa = PBXGroup;
+			children = (
+				EA99B053B9FC14B8B0C7213E8B22C695 /* Array+Additions.swift */,
+				0A7F7EAE05C0AB805483CC82E5C62A83 /* Date+Additions.swift */,
+				F75BF42659DD4A34395E337470F5172D /* FlowService.swift */,
+				6B1856B4E2AA8E7941A6E33596F17F0E /* JSONHandler.swift */,
+				9C398A3064E6D3858D7B0BE7C89E772C /* MercadoPagoPXTracking.h */,
+				F699F8CDDB64D1D418F20DE1FCDCB3A9 /* MPTActionEventInfo.swift */,
+				9B6EB189628A490F7BFD870F2D84B7CD /* MPTApplication.swift */,
+				A32FE89B6FD67D45A1E30FB317BE3222 /* MPTDevice.swift */,
+				07D861D48BA961597999F5334255B246 /* MPTrackInfo.swift */,
+				993399236DFBB2401E5BFE68427A4934 /* MPTScreenTrackInfo.swift */,
+				D01CC6C3DA41AEE4B4846C23AE3CA410 /* MPTTrackType.swift */,
+				830E722D581F855F1B9CB4970A492F23 /* MPXReach.swift */,
+				C2C03BD9F09669826F3B9A2E015C8F33 /* MPXTracker.swift */,
+				BF20BE799333C4C82DFF37FBFAC58906 /* PaymentTracker.swift */,
+				DA8816E5FB7241ADC8090BF4E0BA8D94 /* PXTrackingSettings.swift */,
+				6A8F89F15CC568243A7FD4E90407EC28 /* PXTrackingURLConfigs.swift */,
+				1A475F07C22E845398548571E259E893 /* String+Additions.swift */,
+				8CEA7A399A9F9016EE525F724DE7739D /* TrackingServices.swift */,
+				BA480EB7D31A7927D40DC1B0F1E33FC7 /* TrackingStrategy.swift */,
+				13D88DBA7D85F29A074A3759DD9B2B9A /* TrackingUtil.swift */,
+				7F15264D7B3B0206D4BEC9AAD59A572B /* TrackStorageManager.swift */,
+				F6DD8675EC3F6D34F80F9FC7217C8594 /* Utils.swift */,
+				6BC392DEB3F54B071030C9DB3AD500C5 /* Resources */,
+				DF6AF7CBBD6BCF787D41B1A6CCA63B72 /* Support Files */,
+			);
+			name = MercadoPagoPXTrackingV4;
+			path = MercadoPagoPXTrackingV4;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -256,15 +261,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FACEDBD9F44EBA930A979C6317B7B40B /* Support Files */ = {
+		DF6AF7CBBD6BCF787D41B1A6CCA63B72 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B4DB4DA66CF73E56F64F5D22E391FA9 /* Info.plist */,
-				F5FB545519DFE176018AA9FA5FAEDD8D /* MercadoPagoPXTrackingV4.modulemap */,
-				36A4F9ABE4C1F54E8D1383A1D30CFFBD /* MercadoPagoPXTrackingV4.xcconfig */,
-				D5213637EDCBFA917838561D2B5F807A /* MercadoPagoPXTrackingV4-dummy.m */,
-				85FC76A1421F8663C46B42D0690FFC28 /* MercadoPagoPXTrackingV4-prefix.pch */,
-				CFE87643DA15634189B6DFD9BB7CF32C /* MercadoPagoPXTrackingV4-umbrella.h */,
+				CEE03F8EEB183EF0F3128F30482573BF /* Info.plist */,
+				14216F8CD966281ED3565AA471F6A402 /* MercadoPagoPXTrackingV4.modulemap */,
+				7B6133ECE98E5CE1C9A65B15247B309C /* MercadoPagoPXTrackingV4.xcconfig */,
+				9152A6DFE554FAC7890627654DD2E0B2 /* MercadoPagoPXTrackingV4-dummy.m */,
+				4C5D2E7E0998CD9556D30E2A19F8ED7A /* MercadoPagoPXTrackingV4-prefix.pch */,
+				DE215D2E523EBA8A9F87B5C46D212B40 /* MercadoPagoPXTrackingV4-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MercadoPagoPXTrackingV4";
@@ -291,12 +296,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BA1F310DEFAF3B1D5C899479F622579 /* Headers */ = {
+		71D1892EB3D341D80C0B6A6DD1C609BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4910D2D6974CB441688FA9A19EA83BAA /* MercadoPagoPXTracking.h in Headers */,
-				7FD5FE4C1DC02DBE5B4B1D191A9CBC9B /* MercadoPagoPXTrackingV4-umbrella.h in Headers */,
+				C1FDD4E43394256683399F47051203D1 /* MercadoPagoPXTracking.h in Headers */,
+				C50AB2042024B48ADC6F401C81C358F6 /* MercadoPagoPXTrackingV4-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,13 +352,14 @@
 			productReference = AEBEBE4B200DFAA0821BDBBFDDAC40AC /* Pods_MercadoPagoServicesTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C869DE4042A4BF9938E006D93ED17F51 /* MercadoPagoPXTrackingV4 */ = {
+		EB587F98041C57AE9782BE133E934161 /* MercadoPagoPXTrackingV4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E5A48F84CF8B6CE6661CECBA115997 /* Build configuration list for PBXNativeTarget "MercadoPagoPXTrackingV4" */;
+			buildConfigurationList = 2E0B6F66E917670F562F980E7E2D024B /* Build configuration list for PBXNativeTarget "MercadoPagoPXTrackingV4" */;
 			buildPhases = (
-				825039BFBF71E170D3558AB03A7694B3 /* Sources */,
-				3D85EC2419DE6D599E3809B445417B74 /* Frameworks */,
-				5BA1F310DEFAF3B1D5C899479F622579 /* Headers */,
+				D97EF4D3D5B3E6E096E12A01925755A8 /* Sources */,
+				187BE2D1F1B038E9857FD3F2A5C10005 /* Frameworks */,
+				71D1892EB3D341D80C0B6A6DD1C609BE /* Headers */,
+				4EEB1F8493232E8DCECC20D8058C59E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -385,50 +391,59 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C869DE4042A4BF9938E006D93ED17F51 /* MercadoPagoPXTrackingV4 */,
+				EB587F98041C57AE9782BE133E934161 /* MercadoPagoPXTrackingV4 */,
 				882A835CEAD5ED88B28499912B4819A6 /* Pods-MercadoPagoServices */,
 				BCB7A04595A3D2D9E3ED2323F0590266 /* Pods-MercadoPagoServicesTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		825039BFBF71E170D3558AB03A7694B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		4EEB1F8493232E8DCECC20D8058C59E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C93349941DC1EA47A67F0A12F14234D /* Array+Additions.swift in Sources */,
-				A182680329B58A829BF7B15B83844896 /* Date+Additions.swift in Sources */,
-				66EF12F4097B744979951FC2E01C8384 /* FlowService.swift in Sources */,
-				1FC32454C0F304419EF5E131593DE376 /* Info.plist in Sources */,
-				5E3C01018D45A07584B76E5EB89C63EE /* JSONHandler.swift in Sources */,
-				B280B88AD25565AA0EDF2D866BFC8871 /* MercadoPagoPXTrackingV4-dummy.m in Sources */,
-				28816B6ADBCB891E12FFCEDAA03A80C7 /* MPTActionEventInfo.swift in Sources */,
-				9D0A2C15D4D9E901BD637EE6436A36DE /* MPTApplication.swift in Sources */,
-				A814BFF23276F85713640A9F7ED46543 /* MPTDevice.swift in Sources */,
-				A95274A1F91DDB1D85DCC1D3CF293718 /* MPTrackInfo.swift in Sources */,
-				7CF903D12E90DED9EB96D05D5B4F44B1 /* MPTScreenTrackInfo.swift in Sources */,
-				CCD8D52707C8C7F2D822658473EA9CE8 /* MPTTrackType.swift in Sources */,
-				5911DD3C154B3079B4BEB3BC9A45DCF7 /* mpx_tracking_settings.plist in Sources */,
-				2A4DB3BE56F113CB894EA46811859891 /* MPXReach.swift in Sources */,
-				7DE652B2CD984AE8C15FFEE800AF8E9B /* MPXTracker.swift in Sources */,
-				E2788A60B1D63F41BA3F7F9A42769C2E /* PaymentTracker.swift in Sources */,
-				B3327D361E2C46803E487DFADCD864E3 /* PXTrackingSettings.swift in Sources */,
-				CB5F4E2709514E49DE387542672441A3 /* PXTrackingURLConfigs.swift in Sources */,
-				5B977480EF4C8541E4B629BA380EE7C4 /* String+Additions.swift in Sources */,
-				7C75FC832E70CDD251BC9F35408FA2A2 /* TrackingServices.swift in Sources */,
-				28CB3FB11BA6FEC2F552E5DDB9DE05FA /* TrackingStrategy.swift in Sources */,
-				E5D8E61A88D28385B6B0FF17276F7762 /* TrackingUtil.swift in Sources */,
-				79B89AE7A8C03E497D5E15E6D6D48466 /* TrackStorageManager.swift in Sources */,
-				5351A5B6FA1ECFE9B35A534CA5C760BC /* Utils.swift in Sources */,
+				438D474FA23F43C2FEA1E06C9B122DD6 /* mpx_tracking_settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		C43E1805800AFF459787E7E0058FA7AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63F6C34C0702699B5AC007609113DCC5 /* Pods-MercadoPagoServices-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97EF4D3D5B3E6E096E12A01925755A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959D80062D31297F7361179FED6BCB7C /* Array+Additions.swift in Sources */,
+				A005BF9F6BEA6DA8B0A322AE2FBDB780 /* Date+Additions.swift in Sources */,
+				62095B95B22889025158084084DC0F24 /* FlowService.swift in Sources */,
+				EC0E93925B1E6007A0B02F703E30E194 /* JSONHandler.swift in Sources */,
+				F55924FC01280BA65F52B426BAE45CAE /* MercadoPagoPXTrackingV4-dummy.m in Sources */,
+				C509C5E7F096E4DA5882D59E4F448FDC /* MPTActionEventInfo.swift in Sources */,
+				00740FA3D90CD9789EAF9659B5DC08DD /* MPTApplication.swift in Sources */,
+				C16F72AF9BFBE71973672FC2D1A8300C /* MPTDevice.swift in Sources */,
+				10ACA20FEA7E32F84B19CEA6908C5793 /* MPTrackInfo.swift in Sources */,
+				CB673DD479F2BC2C7C8BD9786FD4CEA2 /* MPTScreenTrackInfo.swift in Sources */,
+				F30B96B8C96FAED86CC518C694E9DAEC /* MPTTrackType.swift in Sources */,
+				2FFD8560F457B519B7B25E9874740BEF /* MPXReach.swift in Sources */,
+				9A69BE2DC4431319F43FEF4019872B2F /* MPXTracker.swift in Sources */,
+				94EAB1575D0D2ACB0613F9187F275516 /* PaymentTracker.swift in Sources */,
+				AA4A334CD72A5708D25C12D3A5C178A7 /* PXTrackingSettings.swift in Sources */,
+				6E8FAE83878859E6775BCE590288F2D3 /* PXTrackingURLConfigs.swift in Sources */,
+				220D9F6861F8C94A3059DA0525BEFD99 /* String+Additions.swift in Sources */,
+				C21628D53B3BB1FB241A2364E0BEE4F1 /* TrackingServices.swift in Sources */,
+				89C252E8C84881BC1C0638715067409A /* TrackingStrategy.swift in Sources */,
+				5CF7B137B33FF8B16C8FC9D172224B56 /* TrackingUtil.swift in Sources */,
+				31200A86CCBD8A42D07252E2CB2497DF /* TrackStorageManager.swift in Sources */,
+				50E83F6D1103BA92523918A7419BF8CB /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,13 +461,13 @@
 		2916D2A0D850A86BEE61166A57DED97F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MercadoPagoPXTrackingV4;
-			target = C869DE4042A4BF9938E006D93ED17F51 /* MercadoPagoPXTrackingV4 */;
+			target = EB587F98041C57AE9782BE133E934161 /* MercadoPagoPXTrackingV4 */;
 			targetProxy = D3577F8671DD4D06E69A4D65AEC222B2 /* PBXContainerItemProxy */;
 		};
 		AC4750C2743C80C617E2B5EB85BE23EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MercadoPagoPXTrackingV4;
-			target = C869DE4042A4BF9938E006D93ED17F51 /* MercadoPagoPXTrackingV4 */;
+			target = EB587F98041C57AE9782BE133E934161 /* MercadoPagoPXTrackingV4 */;
 			targetProxy = 229C2F33E1F8FDCBB2125987BAAD49AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -550,9 +565,40 @@
 			};
 			name = Release;
 		};
-		5784C56E0935C92214FA48E7A46FE155 /* Release */ = {
+		3F87353D30D4C9476C8B9445C7405A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A4F9ABE4C1F54E8D1383A1D30CFFBD /* MercadoPagoPXTrackingV4.xcconfig */;
+			baseConfigurationReference = 7B6133ECE98E5CE1C9A65B15247B309C /* MercadoPagoPXTrackingV4.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MercadoPagoPXTrackingV4/MercadoPagoPXTrackingV4-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MercadoPagoPXTrackingV4/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MercadoPagoPXTrackingV4/MercadoPagoPXTrackingV4.modulemap";
+				PRODUCT_NAME = MercadoPagoPXTrackingV4;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85F4021C0841650CA53F5FC954DF7B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6133ECE98E5CE1C9A65B15247B309C /* MercadoPagoPXTrackingV4.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -581,37 +627,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		855C30D599207A1F74634C42B48AEC85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A4F9ABE4C1F54E8D1383A1D30CFFBD /* MercadoPagoPXTrackingV4.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MercadoPagoPXTrackingV4/MercadoPagoPXTrackingV4-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MercadoPagoPXTrackingV4/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MercadoPagoPXTrackingV4/MercadoPagoPXTrackingV4.modulemap";
-				PRODUCT_NAME = MercadoPagoPXTrackingV4;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BA22114FFC7A4C085464556070B69867 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -781,20 +796,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E5A48F84CF8B6CE6661CECBA115997 /* Build configuration list for PBXNativeTarget "MercadoPagoPXTrackingV4" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				855C30D599207A1F74634C42B48AEC85 /* Debug */,
-				5784C56E0935C92214FA48E7A46FE155 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
 				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0B6F66E917670F562F980E7E2D024B /* Build configuration list for PBXNativeTarget "MercadoPagoPXTrackingV4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87353D30D4C9476C8B9445C7405A4F /* Debug */,
+				85F4021C0841650CA53F5FC954DF7B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
