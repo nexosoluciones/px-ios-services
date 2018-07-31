@@ -31,5 +31,6 @@ internal class ApiParams: NSObject {
     static let DEFAULT_PAYMENT_METHOD = "default_payment_method"
     static let EXCLUDED_PAYMENT_METHOD = "excluded_payment_methods"
     static let EXCLUDED_PAYMET_TYPES = "excluded_payment_types"
+    static let DIFFERENTIAL_PRICING_ID = "differential_pricing_id"
 }
 
