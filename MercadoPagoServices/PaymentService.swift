@@ -33,7 +33,7 @@ open class PaymentService: MercadoPagoService {
         })
     }
 
-    open func getInstallments(_ method: String = "GET", uri: String = PXServicesURLConfigs.MP_INSTALLMENTS_URI, bin: String?, amount: Double, issuerId: String?, payment_method_id: String, success: @escaping ([PXInstallment]) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
+    open func getInstallments(_ method: String = "GET", uri: String = PXServicesURLConfigs.MP_INSTALLMENTS_URI, bin: String?, amount: Double, issuerId: String?, payment_method_id: String, differential_pricing_id: String?, success: @escaping ([PXInstallment]) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
 
         var params: String = MercadoPagoServices.getParamsPublicKeyAndAcessToken(merchantPublicKey, payerAccessToken)
         params.paramsAppend(key: ApiParams.BIN, value: bin)
@@ -41,6 +41,7 @@ open class PaymentService: MercadoPagoService {
         params.paramsAppend(key: ApiParams.ISSUER_ID, value: String(describing: issuerId!))
         params.paramsAppend(key: ApiParams.PAYMENT_METHOD_ID, value: payment_method_id)
         params.paramsAppend(key: ApiParams.PROCESSING_MODE, value: processingMode)
+        params.paramsAppend(key: ApiParams.DIFFERENTIAL_PRICING_ID, value: differential_pricing_id)
 
         self.request( uri: uri, params:params, body: nil, method: method, success: {(data: Data) -> Void in
             let jsonResult = try! JSONSerialization.jsonObject(with: data, options:JSONSerialization.ReadingOptions.allowFragments)
