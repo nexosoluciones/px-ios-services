@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MercadoPagoServicesV4"
-  s.version          = "1.0.18"
+  s.version          = "1.0.19"
   s.summary          = "MercadoPago Services"
   s.homepage         = "https://www.mercadopago.com"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = ['MercadoPagoServices/**/**/**.{h,m,swift}']
   s.dependency 'MercadoPagoPXTrackingV4'
-  
+
   s.swift_version = '4.0'
 end

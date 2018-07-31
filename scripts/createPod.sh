@@ -8,7 +8,7 @@ if [ $# -eq 0 ]
 fi
 
 VERSION=$1
-PROJECT="MercadoPagoServices"
+PROJECT="MercadoPagoServicesV4"
 PODSPEC_FILE="$PROJECT.podspec"
 ## Default branch is master
 GIT_BRANCH="master"
