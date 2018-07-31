@@ -10,7 +10,7 @@ import Foundation
 open class PXServicesURLConfigs: NSObject {
     open static var MP_TEST_ENV = "/beta"
     open static var MP_PROD_ENV = "/v1"
-    open static var MP_SELECTED_ENV = MP_TEST_ENV
+    open static var MP_SELECTED_ENV = MP_PROD_ENV
 
     open static var API_VERSION = "1.6"
     open static let MP_API_BASE_URL_PROD: String =  "https://api.mercadopago.com"
