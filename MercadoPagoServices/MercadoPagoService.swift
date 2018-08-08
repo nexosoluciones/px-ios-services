@@ -45,7 +45,8 @@ open class MercadoPagoService: NSObject {
         request.httpMethod = method
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         if let sdkVersion = PXServicesURLConfigs.PX_SDK_VERSION {
-            request.setValue("User-Agent", forHTTPHeaderField: "PX/iOS/" + sdkVersion)
+            let value = "PX/iOS/" + sdkVersion
+            request.setValue(value, forHTTPHeaderField: "User-Agent")
         }
 
         if headers !=  nil && headers!.count > 0 {

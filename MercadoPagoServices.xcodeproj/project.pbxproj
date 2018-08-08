@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D72E92211B6DCA00400159 /* PXDifferentialPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D72E91211B6DC900400159 /* PXDifferentialPricing.swift */; };
 		23F98D4920F5310F00E1767E /* MercadoPagoPXTrackingV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F98D4A20F5310F00E1767E /* MercadoPagoPXTrackingV4.framework */; };
 		4B02E1D61FA8C7BE0086B309 /* PaymentMethodSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02E1CD1FA8C7BD0086B309 /* PaymentMethodSearchService.swift */; };
 		4B02E1D71FA8C7BE0086B309 /* IdentificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02E1CE1FA8C7BD0086B309 /* IdentificationService.swift */; };
@@ -180,6 +181,7 @@
 /* Begin PBXFileReference section */
 		0C26BFA9B846CD437888DB80 /* Pods-MercadoPagoServicesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoPagoServicesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests.release.xcconfig"; sourceTree = "<group>"; };
 		15005DD77F994F3D79635FCA /* Pods_MercadoPagoServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoPagoServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D72E91211B6DC900400159 /* PXDifferentialPricing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXDifferentialPricing.swift; sourceTree = "<group>"; };
 		23F98D4A20F5310F00E1767E /* MercadoPagoPXTrackingV4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MercadoPagoPXTrackingV4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4FFA29D06131A4D93D3F29 /* Pods-MercadoPagoServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoPagoServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercadoPagoServices/Pods-MercadoPagoServices.debug.xcconfig"; sourceTree = "<group>"; };
 		323068220129EBA62D25AD6D /* Pods-MercadoPagoServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoPagoServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercadoPagoServices/Pods-MercadoPagoServices.release.xcconfig"; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 		4B3C78CD1FA35F1200CB47B0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				15D72E91211B6DC900400159 /* PXDifferentialPricing.swift */,
 				4BE4B2081F9FC24D00A08BCE /* PXAddress.swift */,
 				4BE4B2341F9FC25900A08BCE /* PXAmountInfo.swift */,
 				4BE4B22C1F9FC25600A08BCE /* PXApiException.swift */,
@@ -731,6 +734,7 @@
 				4BE4B2721F9FC25C00A08BCE /* PXDiscount.swift in Sources */,
 				4BE4B2671F9FC25C00A08BCE /* PXCardNumber.swift in Sources */,
 				4BE4B26A1F9FC25C00A08BCE /* PXCheckoutPreference.swift in Sources */,
+				15D72E92211B6DCA00400159 /* PXDifferentialPricing.swift in Sources */,
 				4BE4B2441F9FC25C00A08BCE /* PXFinantialInstitution.swift in Sources */,
 				4B02E1DD1FA8C7BE0086B309 /* PromosService.swift in Sources */,
 				4BE4B2511F9FC25C00A08BCE /* PXPaymentPreference.swift in Sources */,
