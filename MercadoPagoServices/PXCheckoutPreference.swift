@@ -16,8 +16,9 @@ open class PXCheckoutPreference: NSObject, Codable {
     open var expirationDateTo: Date?
     open var expirationDateFrom: Date?
     open var site: PXSite?
+    open var differentialPricing: PXDifferentialPricing?
 
-    public init(id: String, items: [PXItem]?, payer: PXPayer?, paymentPreference: PXPaymentPreference?, siteId: String?, expirationDateTo: Date?, expirationDateFrom: Date?, site: PXSite?) {
+    public init(id: String, items: [PXItem]?, payer: PXPayer?, paymentPreference: PXPaymentPreference?, siteId: String?, expirationDateTo: Date?, expirationDateFrom: Date?, site: PXSite?, differentialPricing: PXDifferentialPricing?) {
         self.id = id
         self.items = items
         self.payer = payer
@@ -26,6 +27,7 @@ open class PXCheckoutPreference: NSObject, Codable {
         self.expirationDateTo = expirationDateTo
         self.expirationDateFrom = expirationDateFrom
         self.site = site
+        self.differentialPricing = differentialPricing
     }
 
     public enum PXCheckoutPreferenceKeys: String, CodingKey {
@@ -36,6 +38,7 @@ open class PXCheckoutPreference: NSObject, Codable {
         case siteId = "site_id"
         case expirationDateTo = "expiration_date_to"
         case expirationDateFrom = "expiration_date_from"
+        case differentialPricing = "differential_pricing"
         case site
     }
 
@@ -49,8 +52,8 @@ open class PXCheckoutPreference: NSObject, Codable {
         let expirationDateFrom: Date? = try container.decodeDateFromStringIfPresent(forKey: .expirationDateFrom)
         let siteId: String? = try container.decodeIfPresent(String.self, forKey: .siteId)
         let site: PXSite? = try container.decodeIfPresent(PXSite.self, forKey: .site)
-
-        self.init(id: id, items: items, payer: payer, paymentPreference: paymentPreference, siteId: siteId, expirationDateTo: expirationDateTo, expirationDateFrom: expirationDateFrom, site: site)
+        let differentialPricing: PXDifferentialPricing? = try container.decodeIfPresent(PXDifferentialPricing.self, forKey: .differentialPricing)
+        self.init(id: id, items: items, payer: payer, paymentPreference: paymentPreference, siteId: siteId, expirationDateTo: expirationDateTo, expirationDateFrom: expirationDateFrom, site: site, differentialPricing:differentialPricing)
     }
 
      public func encode(to encoder: Encoder) throws {
@@ -61,6 +64,7 @@ open class PXCheckoutPreference: NSObject, Codable {
         try container.encodeIfPresent(self.payer, forKey: .payer)
         try container.encodeIfPresent(self.siteId, forKey: .siteId)
         try container.encodeIfPresent(self.site, forKey: .site)
+        try container.encodeIfPresent(self.differentialPricing, forKey: .differentialPricing)
     }
 
     open func toJSONString() throws -> String? {

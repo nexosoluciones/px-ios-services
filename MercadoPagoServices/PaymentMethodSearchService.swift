@@ -41,7 +41,7 @@ open class PaymentMethodSearchService: MercadoPagoService {
         super.init(baseURL: baseURL)
     }
 
-    open func getPaymentMethods(_ amount: Double, customerEmail: String? = nil, customerId: String? = nil, defaultPaymenMethodId: String?, excludedPaymentTypeIds: Set<String>?, excludedPaymentMethodIds: Set<String>?, cardsWithEsc: [String]?, supportedPlugins: [String]?, site: PXSite, payer: PXPayer, language: String, success: @escaping (_ paymentMethodSearch: PXPaymentMethodSearch) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
+    open func getPaymentMethods(_ amount: Double, customerEmail: String? = nil, customerId: String? = nil, defaultPaymenMethodId: String?, excludedPaymentTypeIds: Set<String>?, excludedPaymentMethodIds: Set<String>?, cardsWithEsc: [String]?, supportedPlugins: [String]?, site: PXSite, payer: PXPayer, language: String, differentialPricingId: String?, success: @escaping (_ paymentMethodSearch: PXPaymentMethodSearch) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
 
         var params =  MercadoPagoServices.getParamsPublicKey(merchantPublicKey)
 
@@ -68,7 +68,8 @@ open class PaymentMethodSearchService: MercadoPagoService {
         params.paramsAppend(key: ApiParams.SITE_ID, value : site.id)
         params.paramsAppend(key: ApiParams.API_VERSION, value : PXServicesURLConfigs.API_VERSION)
         params.paramsAppend(key: ApiParams.PROCESSING_MODE, value: processingMode)
-
+        params.paramsAppend(key: ApiParams.DIFFERENTIAL_PRICING_ID, value: differentialPricingId)
+        
         if let cardsWithEscParams = cardsWithEsc?.map({$0}).joined(separator: ",") {
             params.paramsAppend(key: "cards_esc", value: cardsWithEscParams)
         }
