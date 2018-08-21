@@ -9,7 +9,7 @@
 import Foundation
 import MercadoPagoPXTrackingV4
 
-open class CustomService: MercadoPagoService {
+internal class CustomService: MercadoPagoService {
 
     open var data: NSMutableData = NSMutableData()
 
