@@ -1,3 +1,5 @@
+# [DEPRECATED] Use https://github.com/mercadopago/px-ios
+
 # Mercado Pago Services SDK - iOS (Swift 4.0)
 
 This library makes it easy to consume Mercado Pago API from your application. By creating tokens, Mercado Pago handles the bulk of PCI compliance by preventing sensitive card data from hitting your server.
