@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		15D72E92211B6DCA00400159 /* PXDifferentialPricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D72E91211B6DC900400159 /* PXDifferentialPricing.swift */; };
-		23F98D4920F5310F00E1767E /* MercadoPagoPXTrackingV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F98D4A20F5310F00E1767E /* MercadoPagoPXTrackingV4.framework */; };
 		4B02E1D61FA8C7BE0086B309 /* PaymentMethodSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02E1CD1FA8C7BD0086B309 /* PaymentMethodSearchService.swift */; };
 		4B02E1D71FA8C7BE0086B309 /* IdentificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02E1CE1FA8C7BD0086B309 /* IdentificationService.swift */; };
 		4B02E1D81FA8C7BE0086B309 /* PreferenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02E1CF1FA8C7BD0086B309 /* PreferenceService.swift */; };
@@ -281,7 +280,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F98D4920F5310F00E1767E /* MercadoPagoPXTrackingV4.framework in Frameworks */,
 				A3F20AFCAF8AFBB51E8E9499 /* Pods_MercadoPagoServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,7 +484,6 @@
 				4BE4B1E01F9FC1C200A08BCE /* Frameworks */,
 				4BE4B1E11F9FC1C200A08BCE /* Headers */,
 				4BE4B1E21F9FC1C200A08BCE /* Resources */,
-				5BECBF46BA96B0C9E7A13A0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -505,8 +502,6 @@
 				4BE4B1E91F9FC1C300A08BCE /* Sources */,
 				4BE4B1EA1F9FC1C300A08BCE /* Frameworks */,
 				4BE4B1EB1F9FC1C300A08BCE /* Resources */,
-				AFA4935F690B653FC9C0EA36 /* [CP] Embed Pods Frameworks */,
-				72CCEA53AEEE203AD5C59B27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -592,54 +587,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5BECBF46BA96B0C9E7A13A0E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServices/Pods-MercadoPagoServices-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72CCEA53AEEE203AD5C59B27 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFA4935F690B653FC9C0EA36 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MercadoPagoPXTrackingV4/MercadoPagoPXTrackingV4.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MercadoPagoPXTrackingV4.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercadoPagoServicesTests/Pods-MercadoPagoServicesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C35D71298BFD221B91514408 /* [CP] Check Pods Manifest.lock */ = {

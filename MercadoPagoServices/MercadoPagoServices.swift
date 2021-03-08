@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import MercadoPagoPXTrackingV4
+//import MercadoPagoPXTrackingV4
 
 open class MercadoPagoServices: NSObject {
 
@@ -29,7 +29,7 @@ open class MercadoPagoServices: NSObject {
     }
 
     func initMercadPagoPXTracking() {
-        MPXTracker.setPublicKey(merchantPublicKey)
+        //MPXTracker.setPublicKey(merchantPublicKey)
     }
 
     open func getCheckoutPreference(checkoutPreferenceId: String, callback : @escaping (PXCheckoutPreference) -> Void, failure: @escaping ((_ error: PXError) -> Void)) {
@@ -88,7 +88,7 @@ open class MercadoPagoServices: NSObject {
             if let tokenDic = jsonResult as? NSDictionary {
                 if tokenDic["error"] == nil {
                     token = try! PXToken.fromJSON(data: data)
-                    MPXTracker.trackToken(token: token.id)
+                    //MPXTracker.trackToken(token: token.id)
                     callback(token)
                 } else {
                     let apiException = try! PXApiException.fromJSON(data: data)
@@ -106,7 +106,7 @@ open class MercadoPagoServices: NSObject {
             if let tokenDic = jsonResult as? NSDictionary {
                 if tokenDic["error"] == nil {
                     token = try! PXToken.fromJSON(data: data)
-                    MPXTracker.trackToken(token: token.id)
+                    //MPXTracker.trackToken(token: token.id)
                     callback(token)
                 } else {
                     let apiException = try! PXApiException.fromJSON(data: data)

@@ -22,7 +22,7 @@ open class MercadoPagoService: NSObject {
                         failure: ((_ error: NSError) -> Void)?) {
         let url = baseURL + uri
         var requesturl = url
-        
+
         if let params = params, !String.isNullOrEmpty(params), let escapedParams = params.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) {
             requesturl += "?" + escapedParams
         }

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import MercadoPagoPXTrackingV4
+//import MercadoPagoPXTrackingV4
 
 internal class CustomService: MercadoPagoService {
 
@@ -63,7 +63,7 @@ internal class CustomService: MercadoPagoService {
                     if paymentDic.allKeys.count > 0 {
                         let payment = try! PXPayment.fromJSON(data: data)
                         if !payment.isCardPaymentType() {
-                            MPXTracker.trackPaymentOff(paymentId: payment.id.stringValue)
+                            //MPXTracker.trackPaymentOff(paymentId: payment.id.stringValue)
                         }
                         success(payment)
                     } else {

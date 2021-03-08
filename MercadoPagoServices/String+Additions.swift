@@ -67,6 +67,12 @@ extension String {
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ"
         return dateFormatter.date(from: dateString)
     }
+
+
+    static let SPACE = " "
+    static func isNullOrEmpty(_ value: String?) -> Bool {
+        return value == nil || value!.isEmpty
+    }
 }
 
 open class Regex {
