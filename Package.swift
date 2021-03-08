@@ -5,14 +5,13 @@ let package = Package(
   name: "px-ios-services",
   platforms: [
     .iOS(.v11)
-  ]
-  /*,
+  ],
   products: [
     // Products define the executables and libraries produced by a package, and make them visible to other packages.
     .library(
         name: "px-ios-services",
         targets: ["px-ios-services"]),
-  ],
+  ]/*,
   dependencies: [
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
